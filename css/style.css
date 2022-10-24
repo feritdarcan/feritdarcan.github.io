@@ -1,0 +1,251 @@
+body{
+    background-image: url("/img/background.png");
+}
+
+span.slide{
+
+    padding: 10px;
+
+}
+
+span.slideSlogan{
+
+    padding: 10px;
+
+}
+
+
+.siziArayalim{
+    background: #87DFF0;
+    height:auto;
+    line-height: 34px;
+    float: center;
+    padding: 24px 24px;
+    border: 2px solid #000;
+    margin-bottom: 15px;
+}
+
+.arayalim {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+.arayalimLeft{
+    float: left; 
+    margin-right: 15px;}
+
+.siziArayalimLogo{
+    width: 55px;
+    height: 55px;
+}
+
+.c_bold{
+    width: 80%; font-weight: bold;
+}
+
+.siziArayalimBg{
+    background-color: #ff6a00;
+    width: 65px; float: left;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#SiziArayalim_captcha{
+    width: 153px;
+    padding-left: 10px;
+    margin-left: 21px;
+}
+
+.arayalimText{
+    float: left;
+    margin-top: 13px;
+}
+
+.gradient-button{
+    width: 257px; background: #FF5200; margin-bottom: 10px; position:static !important;
+}
+
+.siziArayalimIcerik{
+    width: 100%;
+}
+
+.c_margin{
+    text-align: center;
+}
+
+.tour-content img {
+    display: block;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+}
+img {
+    border: none;}
+
+
+    .padding-2-rem-tb {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .margin-1-rem-tb {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .bg-black {
+        background-color: #000;
+    }
+    .btn-link.text-white, .text-white, a.text-white-hover:hover {
+        color: #fff;
+    }
+    .text-extra-large {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .d-block {
+        display: block;
+    }
+    
+.weather{
+    width: 100%;
+}
+
+/*Galeri Begin*/
+footer{                
+    height: 60px;                
+    background-color: black;                
+
+}            
+#wrapper{                
+    min-height: calc(100vh - 60px);            
+}
+
+.bx{
+    margin-top: .125rem;
+}
+
+.row > .column {
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+   .column{
+    margin-top:0.7rem ;
+   }
+   /* Popup Arkaplanda */
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+   }
+   /* Popup İçerik */
+   .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+   }
+   /* Kapat Butonu */
+   .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+   }
+   .close:hover,
+   .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+   }
+   .mySlides {
+    display: none;
+   }
+   /* Ileri Geri Butonları */
+   .prev,
+   .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+   }
+   /* "Bir sonraki düğmeyi" sağa ekle */
+   .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+   }
+   /* Fareyle üzerine gelin, biraz gören siyah arka plan rengi ekleyin */
+   .prev:hover,
+   .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+   }
+   /* Sayı metni (1/3 vb.) */
+   .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+   }
+   .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+   }
+   img.demo {
+    opacity: 0.6;
+   }
+   .active,
+   .demo:hover {
+    opacity: 1;
+   }
+   img.hover-shadow {
+    transition: 0.3s
+   }
+   .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+   }
+   .slider{
+    width:100%;
+    height:200px;
+   }
+
+   .sliderImg{
+    width:100%
+   }
+
+
+   /*Galeri End*/
